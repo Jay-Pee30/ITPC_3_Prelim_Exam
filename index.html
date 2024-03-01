@@ -42,8 +42,8 @@ button {
         <div><input type="password" placeholder="Password"></div>
 
         <div class = "div1">
-            <button style="height: 30px; font-weight: bold; color: white; background-color: black; ">Login</button>
-            <button style="height: 30px; font-weight: bold; color: white; background-color: black;">Register</button>
+            <button id = "btnLogin" style="height: 30px; font-weight: bold; color: white; background-color: black; ">Login</button>
+           <a href="register.html"> <button style="height: 30px; font-weight: bold; color: white; background-color: black;">Register</button></a>
         </div>
 
     </div>
@@ -52,5 +52,10 @@ button {
     
 
 </body>
+<script>
+    btnLogin.onclick = function () {
+        alert("Login Success")
+    };
+</script>
 
 </html>
