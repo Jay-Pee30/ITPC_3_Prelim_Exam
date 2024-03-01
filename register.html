@@ -20,8 +20,8 @@
     <div><input class = "div2"type="text" placeholder="First Name"></div>
     <div><input class = "div2"type="text" placeholder="Last Name"></div>
     <div style="margin-top: 1rem;">
-        <button class="btn">Cancel</button>
-        <button class="btn">Register</button>
+        <a href="index.html"><button class="btn">Cancel</button></a>
+        <a href="index.html"><button id="btnReg" class="btn">Register</button></a>
     </div>
 </div>
 
@@ -31,4 +31,9 @@
 
     
 </body>
+<script>
+    btnReg.onclick = function () {
+        alert("Registration Success")
+    };
+</script>
 </html>
