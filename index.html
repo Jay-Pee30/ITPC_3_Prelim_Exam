@@ -7,23 +7,49 @@
     <title>Login</title>
 </head>
 
+<style>
+#loginDiv{
 
+    background-color: black; height: 70px;
 
+}
+#logintxt {
+    font-size: 50px; color: white;
+    
+}
+div {text-align: center;}
 
+.div1{ margin-top: 1rem;
+}
+#contentDiv {
+    background-color: grey; height: 150px;
+}
+input {height: 25px; width: 200px; font-size: 30;}
+#footer {
+    background-color: black; height: 25px;
+}
+button {
+    cursor: pointer;
+}
+</style>
 
 <body>
 
-    <h1>Login Page</h1>
-    <div>
-        <input type="text" placeholder="Username">
+    <div id="loginDiv"><h1 id = logintxt>Login Page</h1></div>
+    <div id = "contentDiv">
+        
+        <div > <input style="margin-top: 1rem;" type="text" placeholder="Username"> </div>
+        <div><input type="password" placeholder="Password"></div>
+
+        <div class = "div1">
+            <button style="height: 30px; font-weight: bold; color: white; background-color: black; ">Login</button>
+            <button style="height: 30px; font-weight: bold; color: white; background-color: black;">Register</button>
+        </div>
+
     </div>
-    <div>
-        <input type="password" placeholder="Password">
-    </div>
-    <div>
-        <button>Login</button>
-        <button>Register</button>
-    </div>
+
+    <div id = "footer"></div>
+    
 
 </body>
 
